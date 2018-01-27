@@ -32,12 +32,29 @@
         
       <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
          <string>Used to save your selfies, photos and wallpapers to your photo library</string>
-      </config-file>        
+      </config-file>   
+        
+      <config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
+         <string>need to photo library access to save pictures there</string>
+      </config-file>
+          
       <config-file target="*-Info.plist" parent="NSContactsUsageDescription">
          <string>Used to call and store phone numbers of shops & restaurants on the app</string>
       </config-file>
         
+      <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+         <string>need camera access to take pictures</string>
+      </config-file>
         
+      <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+         <string>need location access to find things nearby</string>
+       </config-file>   
+       <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
+         <string>need location access to find things nearby</string>
+       </config-file>
+        <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
+         <string>need location access to find things nearby</string>
+       </config-file>
         
     </platform>
     
