@@ -49,9 +49,7 @@
       <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
          <string>L'application a besoin de vous localiser pour montrer votre position sur la carte et géolocaliser vos actions, aucune information personnelle n'est enregistrée ni communiquée</string>
        </config-file>   
-       <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
-         <string>L'application a besoin de vous localiser pour montrer votre position sur la carte et géolocaliser vos actions, aucune information personnelle n'est enregistrée ni communiquée</string>
-       </config-file>
+
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
          <string>L'application a besoin de vous localiser pour montrer votre position sur la carte et géolocaliser vos actions, aucune information personnelle n'est enregistrée ni communiquée</string>
        </config-file>
