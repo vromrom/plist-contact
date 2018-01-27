@@ -31,13 +31,30 @@
     <platform name="ios">
         
       <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-         <string>Used to save your selfies, photos and wallpapers to your photo library</string>
-      </config-file>        
+         <string>Sauvegarde des photos sur la librairie de votre appareil</string>
+      </config-file>   
+        
+      <config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
+         <string>Sauvegarde des photos sur votre appareil</string>
+      </config-file>
+          
       <config-file target="*-Info.plist" parent="NSContactsUsageDescription">
-         <string>Used to call and store phone numbers of shops & restaurants on the app</string>
+         <string>Nécessaire pour appeler ou texter les divers intervenants</string>
       </config-file>
         
+      <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+         <string>Autorisation d'ouvrir l'appareil photo pour ajouter du contenu à vos relevés</string>
+      </config-file>
         
+      <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+         <string>L'application a besoin de vous localiser pour montrer votre position sur la carte et géolocaliser vos actions, aucune information personnelle n'est enregistrée ni communiquée</string>
+       </config-file>   
+       <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
+         <string>L'application a besoin de vous localiser pour montrer votre position sur la carte et géolocaliser vos actions, aucune information personnelle n'est enregistrée ni communiquée</string>
+       </config-file>
+        <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
+         <string>L'application a besoin de vous localiser pour montrer votre position sur la carte et géolocaliser vos actions, aucune information personnelle n'est enregistrée ni communiquée</string>
+       </config-file>
         
     </platform>
     
