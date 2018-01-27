@@ -30,7 +30,7 @@
     <!-- ios -->
     <platform name="ios">
         
-      <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+     <!-- <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
          <string>Sauvegarde des photos sur la librairie de votre appareil</string>
       </config-file>   
         
@@ -44,7 +44,7 @@
         
       <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
          <string>Autorisation d'ouvrir l'appareil photo pour ajouter du contenu à vos relevés</string>
-      </config-file>
+      </config-file>-->
         
       <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
          <string>L'application a besoin de vous localiser pour montrer votre position sur la carte et géolocaliser vos actions, aucune information personnelle n'est enregistrée ni communiquée</string>
