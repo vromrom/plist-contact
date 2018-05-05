@@ -54,7 +54,13 @@
       <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
          <string>need location access to find things nearby</string>
       </config-file>        
+ 
         
+        
+      <config-file target="*-Info.plist" parent="aps-environment">
+         <string>production</string>
+      </config-file>  
+
     </platform>
     
 </plugin>
