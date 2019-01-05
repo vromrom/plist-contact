@@ -29,20 +29,30 @@
     
     <!-- ios -->
     <platform name="ios">
+	    
+      <config-file target="*-Info.plist" parent="NSContactsUsageDescription">
+         <string>Accéder au téléphone pour contacter directement les divers intervenants</string>
+      </config-file>
         
         
-			<edit-config parent="NSCameraUsageDescription" target="*-Info.plist">
-				<string>Accéder à l'appareil photo pour ajouter des photos à vos saisies</string>
-			</edit-config>
-			<edit-config parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
-				<string>Accéder à votre librairie pour ajouter des photos de votre appareil à vos saisies</string>
-			</edit-config>
-			<edit-config parent="NSPhotoLibraryAddUsageDescription" target="*-Info.plist">
-				<string>Accéder à votre librairie pour stocker les photos dans votre téléphone</string>
-			</edit-config>
-			<edit-config parent="NSLocationWhenInUseUsageDescription" target="*-Info.plist">
-				<string>Accéder à votre position GPS pour marquer l'emplacement précis de vos saisies</string>
-			</edit-config>   
+      <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+         <string>Accéder à l'appareil photo pour ajouter des photos à vos saisies</string>
+      </config-file>
+
+        
+      <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+         <string>Accéder à votre librairie pour ajouter des photos de votre appareil à vos saisies</string>
+      </config-file>
+        
+        
+      <config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
+         <string>Accéder à votre librairie pour stocker les photos dans votre téléphone</string>
+      </config-file>
+        
+        
+      <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+         <string>Accéder à votre position GPS pour marquer l'emplacement précis de vos saisies</string>
+      </config-file> 
 	    
     </platform>
     
