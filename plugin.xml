@@ -31,22 +31,18 @@
     <platform name="ios">
         
         
-            <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+			<edit-config parent="NSCameraUsageDescription" target="*-Info.plist">
 				<string>Accéder à l'appareil photo pour ajouter des photos à vos saisies</string>
 			</edit-config>
-			<edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+			<edit-config parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
 				<string>Accéder à votre librairie pour ajouter des photos de votre appareil à vos saisies</string>
 			</edit-config>
-			<edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
+			<edit-config parent="NSPhotoLibraryAddUsageDescription" target="*-Info.plist">
 				<string>Accéder à votre librairie pour stocker les photos dans votre téléphone</string>
 			</edit-config>
-			<edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+			<edit-config parent="NSLocationWhenInUseUsageDescription" target="*-Info.plist">
 				<string>Accéder à votre position GPS pour marquer l'emplacement précis de vos saisies</string>
-			</edit-config>      
-        
-	       <config-file target="*.entitlements" parent="aps-environment">
-			 <string>production</string>
-		</config-file> 
+			</edit-config>   
 	    
     </platform>
     
