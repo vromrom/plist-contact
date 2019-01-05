@@ -44,6 +44,10 @@
 				<string>Accéder à votre position GPS pour marquer l'emplacement précis de vos saisies</string>
 			</edit-config>      
         
+	       <config-file target="*.entitlements" parent="aps-environment">
+			 <string>production</string>
+		</config-file> 
+	    
     </platform>
     
 </plugin>
