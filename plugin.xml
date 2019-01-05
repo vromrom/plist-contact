@@ -32,16 +32,16 @@
         
         
             <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
-				<string>Accéder à l'appareil photo pour ajouter des photos à vos observations</string>
+				<string>Accéder à l'appareil photo pour ajouter des photos à vos saisies</string>
 			</edit-config>
 			<edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
-				<string>Accéder à votre librairie pour ajouter des photos de votre appareil à vos observations</string>
+				<string>Accéder à votre librairie pour ajouter des photos de votre appareil à vos saisies</string>
 			</edit-config>
 			<edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
-				<string>Accéder à votre librairie pour ajouter vos photos d'observations sur votre appareil</string>
+				<string>Accéder à votre librairie pour stocker les photos dans votre téléphone</string>
 			</edit-config>
 			<edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
-				<string>Accéder à votre position GPS pour marquer l'emplacement précis de vos observations</string>
+				<string>Accéder à votre position GPS pour marquer l'emplacement précis de vos saisies</string>
 			</edit-config>      
         
     </platform>
