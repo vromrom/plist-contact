@@ -54,6 +54,16 @@
          <string>Accéder à votre position GPS pour marquer l'emplacement précis de vos saisies</string>
       </config-file> 
 	    
+       
+      <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
+         <string>Accéder à votre position GPS pour marquer l'emplacement précis de vos saisies et vous guider par rapport aux postes de chasse</string>
+      </config-file> 
+	    
+       
+      <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
+         <string>Accéder à votre position GPS pour marquer l'emplacement précis de vos saisies et vous guider par rapport aux postes de chasse</string>
+      </config-file> 	    
+	    
     </platform>
     
 </plugin>
